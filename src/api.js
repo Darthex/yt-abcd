@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = '=AIzaSyARaqwBRp0qu1IdX9p-wn-dAObUN_Wur5c';
 
 export const getVideoDetails = async (videoId) => {
     const response = await axios.get(
